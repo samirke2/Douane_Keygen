@@ -3,7 +3,7 @@
 # ---- المعلومات الأساسية
 title = Activation Keygen
 package.name = activationkeygen
-package.domain = org.khaledcars
+package.domain = org.samir
 
 # ---- الملفات (يجب أن يكون الملف الرئيسي باسم main.py)
 source.dir = .
@@ -19,7 +19,9 @@ requirements = python3,kivy==2.3.0,arabic-reshaper==3.0.1,python-bidi==0.4.2,six
 # ---- الواجهة
 orientation = portrait
 fullscreen = 0
-presplash.color = #0D0F17
+icon.filename = %(source.dir)s/icon.png
+presplash.filename = %(source.dir)s/splash.png
+presplash.color = #0E2623
 
 # ---- أندرويد (نفس الإعدادات التي اشتغلت في التطبيق السابق)
 android.api = 33
